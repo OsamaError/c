@@ -17,6 +17,6 @@ int main (){
         printf("No prime numbers in this range.\n");
     } else {
         printf("%d ",2);
-
+    }
     return 0;
 }
