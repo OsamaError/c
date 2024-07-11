@@ -5,13 +5,13 @@
 
 int main(){
 
-    int decimal, remainder, binary = 0, i = 1;
+    int decimal, decimal1, remainder, binary = 0, i = 1;
     
 
     // Negative numbers are not supported
     printf("Enter a decimal number: ");
     scanf("%d", &decimal);
-
+    decimal1 = decimal;
 
     while (decimal != 0){
         remainder = decimal % 2;
@@ -20,7 +20,7 @@ int main(){
         i *= 10;
     }
 
-    printf("Binary equivalent of %d is %d\n", decimal, binary);
+    printf("Binary equivalent of %d is %d\n", decimal1, binary);
 
     
     return 0;
