@@ -13,7 +13,7 @@ int main(){
             printf("Youssef\n");
             break;
         case 1145:
-            printf("Min\n");
+            printf("Mina\n");
             break;
         default:
             printf("Wrong ID\n");
