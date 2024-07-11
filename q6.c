@@ -10,7 +10,7 @@ int main(){
 
     // Negative numbers are not supported
     printf("Enter a decimal number: ");
-    scanf("%d", &decimal)
+    scanf("%d", &decimal);
 
 
     while (decimal != 0){
@@ -18,11 +18,10 @@ int main(){
         decimal /= 2;
         binary += remainder * i;
         i *= 10;
-
+    }
 
     printf("Binary equivalent of %d is %d\n", decimal, binary);
 
-    }
-
+    
     return 0;
 }
