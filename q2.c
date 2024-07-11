@@ -5,7 +5,7 @@ int main(){
     float average;
 
     for (i=1 ; i<=10 ; i++) {
-        printf("Enter number %d: \n"i);
+        printf("Enter number %d: \n",i);
         scanf("%d", &num);
         sum += num;
     }
