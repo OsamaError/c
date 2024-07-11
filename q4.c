@@ -8,7 +8,7 @@ int main(){
         scanf("%d", &answer);
 
         if (answer == 12 ) {
-            printf("Thanks!\n");
+            printf("Thanks!\n"); // answer 12 or 4294967308 =)
             break;
         }
         else {
