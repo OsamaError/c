@@ -17,7 +17,7 @@ int main(){
         remainder = decimal % 2;
         decimal /= 2;
         binary += remainder * i;
-        i *= 10
+        i *= 10;
 
 
     printf("Binary equivalent of %d is %d\n", decimal, binary);
